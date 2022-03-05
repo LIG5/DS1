@@ -1,0 +1,146 @@
+* { 
+    box-sizing: border-box;
+    padding: 0;
+
+}
+body{
+   background-image: url(image/background.jpg );
+   background-size: cover;
+   height: 100vh;
+   width: 100%;
+   overflow: hidden;
+   background-repeat: no-repeat;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.container {
+    width: 400px;
+    height: 400px;
+    background: rgba(24,24,27, 0.6 );
+    color: white;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 50px;
+    padding-bottom: 50px;
+ border: 1px solid white ;
+}
+.app-title{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+.app-title p{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.6em;
+    color: white;
+}
+.weather-icon {
+width: 400px;
+height: 128px;
+}
+.weather-icon img{
+   display: block;
+   margin: 0 auto;
+   width: 100px;
+    }
+    .temperature-value{
+        width: 400px;
+        height: 60px;
+    }
+    .temperature-value p{
+        padding: 0;
+        margin: 0;
+        color: white;
+        text-align: center;
+        font-size: 28px;
+    }
+    .temperature-value span{
+        padding: 0;
+        margin: 0;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+    }
+    .temperature-description p{
+        padding: 8px;
+        margin: 0;
+        color: white;
+        text-align: center;
+
+    }
+    .location {
+        width: 400px;
+        height: 60px;
+        text-align: center;
+        font-size: 20px;
+
+    }
+    .location p{
+        padding: 0;
+        margin: 0;
+        color: #293251;
+        text-align: center;
+
+    }
+.map--image{
+width: 50%;
+float: right;
+}
+.map--image path {
+    fill:cadetblue ;
+    stroke: #FFF;
+    stroke-width: 1px;
+    transition: fill 0.3s;
+}
+.map--image path:hover{
+    fill: #62e6d0
+}
+.map--list{
+    float: right;
+    width: 50%;
+    margin-top: 100px;
+ 
+}
+.map--list a{
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s;
+
+}
+.containerr {
+    font-size: 60px;
+   margin-top: 60px;
+   margin-left: 50px;
+   color: #FFF;
+   line-height:70px;
+   font-weight: 100;
+   font-family: 'Quicksand', sans-serif;
+   display: flex;
+   
+   
+}
+.date-container {
+    background: rgba(24,24,27, 0.6 );
+padding: 20px 20px;
+border: 1px solid white;
+border-radius: 50px;
+}
+.current-info{    
+display: flex;
+} 
+.current-info button {
+    background: rgba(24,24,27, 0.6 );
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+}
+.gp {
+   margin-left:16cm;
+    font-size: large;
+}
